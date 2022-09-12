@@ -71,7 +71,14 @@ export const GalleryView: FC = ({}) => {
 
                 <div className="w-full min-w-full">
                   <p className="mb-5">
-                  I’m 100% degen diamond fisting TombstonedHS 
+                  I’m 100% degen diamond fisting <a
+                      href="https://twitter.com/TombstonedApes"
+                      target="_blank"
+                      className="link font-bold"
+                      rel="noreferrer"
+                    >
+                      @TombstonedApes
+                    </a>{" "} 
                   <br />
                   Looties pays my groceries{" "}
                   <br />
