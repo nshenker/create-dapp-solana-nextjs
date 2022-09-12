@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { GallerView } from "../views";
+import { GalleryView } from "../views";
 
 const Home: NextPage = (props) => {
   return (
