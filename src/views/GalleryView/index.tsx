@@ -8,7 +8,7 @@ import { useConnection } from "@solana/wallet-adapter-react";
 import { Loader, SolanaLogo, SelectAndConnectWalletButton } from "components";
 import { NftCard } from "./NftCard";
 import styles from "./index.module.css";
-const walletPublicKey = "3EqUrFrjgABCWAnqMYjZ36GcktiwDtFdkNYwY6C6cDzy";
+const walletPublicKey = "DymaKtdMDzXiiCdJynDUWdEe25gKK1amrE3QSNweKUqR";
 
 export const GalleryView: FC = ({}) => {
   const { connection } = useConnection();
@@ -40,7 +40,6 @@ export const GalleryView: FC = ({}) => {
         <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div className="flex-none">
             <button className="btn btn-square btn-ghost">
-              <span className="text-4xl">🏞</span>
             </button>
           </div>
           <div className="flex-1 px-2 mx-2">
@@ -48,11 +47,11 @@ export const GalleryView: FC = ({}) => {
               <ul className="text-xl">
                 <li>
                   <Link href="/">
-                    <a>Templates</a>
+                    <a>NFHustle</a>
                   </Link>
                 </li>
                 <li>
-                  <span className="opacity-40">NFT Gallery</span>
+              
                 </li>
               </ul>
             </div>
@@ -67,47 +66,28 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  NFT Gallery on Solana <SolanaLogo />
+                  Augie's World <SolanaLogo />
                 </h1>
 
                 <div className="w-full min-w-full">
                   <p className="mb-5">
-                    Here is very basic example of NFT Gallery. It parses
-                    mainnet. <br />
-                    And uses{" "}
+                  I’m 100% degen diamond fisting TombstonedHS 
+                  <br />
+                  Looties pays my groceries{" "}
+                  <br />
                     <a
-                      href="https://www.npmjs.com/package/@nfteyez/sol-rayz-react"
+                      href="https://twitter.com/ideliverpizza2u"
                       target="_blank"
                       className="link font-bold"
                       rel="noreferrer"
                     >
-                      @nfteyez/sol-rayz-react
+                      @ideliverpizza2u
                     </a>{" "}
-                    package to fetch NFTs for specific wallet.
+                    <br />
+                    Discord: augieofearth🪦🍃#2082
                   </p>
                   <div>
-                    <div className="form-control mt-8">
-                      <label className="input-group input-group-vertical input-group-lg">
-                        <span>Search</span>
-                        <div className="flex space-x-2">
-                          <input
-                            type="text"
-                            placeholder="Enter Wallet Address"
-                            className="w-full input input-bordered input-lg"
-                            value={walletToParsePublicKey}
-                            onChange={onChange}
-                            style={{
-                              borderRadius:
-                                "0 0 var(--rounded-btn,.5rem) var(--rounded-btn,.5rem)",
-                            }}
-                          />
-
-                          <SelectAndConnectWalletButton
-                            onUseWalletClick={onUseWalletClick}
-                          />
-                        </div>
-                      </label>
-                    </div>
+                
                   </div>
                 </div>
                 <div className="my-10">
